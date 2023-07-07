@@ -85,7 +85,7 @@ Examples
 
 ###Install package (one time only)
 install.packages('./TEnGExA', repos = NULL, type="source")
-### call linrary
+### call library
 library('TEnGExA')
 ### Run with sample file
 datafile= paste(path.package("TEnGExA"),"/exdata/sample-fpkm-matrix-1.csv",sep="")
