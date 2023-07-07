@@ -89,6 +89,9 @@ install.packages('./TEnGExA', repos = NULL, type="source")
 library('TEnGExA')
 ### Run with sample file
 datafile= paste(path.package("TEnGExA"),"/exdata/sample-fpkm-matrix-1.csv",sep="")
+
 data1 = read.csv(datafile, header = TRUE)
+
 result=TEnGExA(data1, fpkm_flag=1, threshold=5, tissue_num= 4, min_fpkm= 1)
+
 write.csv(result, "output1.csv")
