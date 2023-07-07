@@ -83,7 +83,7 @@ Tissue Enriched, Tissue Enhanced, Gene, Tissue, read count, FPKM
 
 How to Run:
 
-Examples
+Download the package and untar it (eg.: tar -xzvf TEnGExA_1.0.tar.gz)
 
 Open R enviornment
 
