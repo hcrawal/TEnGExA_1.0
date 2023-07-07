@@ -81,7 +81,10 @@ KEYWORDS
 Tissue Enriched, Tissue Enhanced, Gene, Tissue, read count, FPKM
 
 
+How to Run:
+
 Examples
+
 Open R enviornment
 
 ###Install package (one time only)
