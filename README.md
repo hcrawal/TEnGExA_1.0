@@ -82,12 +82,18 @@ Tissue Enriched, Tissue Enhanced, Gene, Tissue, read count, FPKM
 
 
 Examples
+Open R enviornment
 
 ###Install package (one time only)
+
 install.packages('./TEnGExA', repos = NULL, type="source")
+
 ### call library
+
 library('TEnGExA')
+
 ### Run with sample file
+
 datafile= paste(path.package("TEnGExA"),"/exdata/sample-fpkm-matrix-1.csv",sep="")
 
 data1 = read.csv(datafile, header = TRUE)
